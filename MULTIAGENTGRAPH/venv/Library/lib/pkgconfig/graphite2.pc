@@ -1,0 +1,7 @@
+
+Name: Graphite2
+Description: Font rendering engine for Complex Scripts
+Version: 3.0.1
+Libs: -LE:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/lib -lgraphite2
+Cflags: -IE:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/include
+

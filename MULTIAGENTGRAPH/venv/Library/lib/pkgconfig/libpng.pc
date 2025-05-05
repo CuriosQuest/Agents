@@ -1,0 +1,12 @@
+prefix=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library
+exec_prefix=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library
+libdir=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/lib
+includedir=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.39
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz
+Cflags: -I${includedir}

@@ -1,0 +1,16 @@
+prefix=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/etc
+localstatedir=E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.14.1
+Requires: freetype2 >=  21.0.15
+Libs: -L${libdir} -lfontconfig
+Libs.private: E:/GenAI/Agents/MULTIAGENTGRAPH/venv/Library/lib/expat.lib
+Cflags: -I${includedir}
